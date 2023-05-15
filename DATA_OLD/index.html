@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th{
+            background-color: #cccccc;
+        }
+        td {
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1> jankowe autka </h1>
+    <h2> formularz janeczka </h2>
+    <form action="p2.php" method="get">
+       <table>
+        <tr>
+            <th>
+                Produkt
+            </th>
+            <th>ilosc</th>
+        </tr>
+        <tr>
+            <td>opony</td>
+            <td><input type="number" name="iloscopon"></td>
+        </tr>
+        <tr></td><td>olej</td> <td><input type="number" name="iloscoleju"></td></tr>
+        <tr>
+            <td>
+                Swiece zaploniw
+            </td>
+            <td>
+                <input type="number" name="iloscswiec">
+            </td>
+        </tr>
+        <tr>
+            <td> nazwikos
+            </td>
+            <td>
+                <input type="text" name="nazwisko" size="20" maxlength="70">
+            </td>
+        </tr>
+        <tr>
+            <td> imie
+            </td>
+            <td>
+                <input type="text" name="imie" size="20" maxlength="70">
+            </td>
+        </tr>
+        <tr>
+        <td colspan="3"><input type="submit" value="wysalij"></td>
+         </tr>
+       </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+    <h1> Formularz o prace w siecówce "Bober"</h1>
+    <hr>
+    <form action="m.php" method="post">
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="imie"><br><br>
+        
+        <label for="surname">Nazwisko:</label>
+        <input type="text" id="surname" name="surname"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="phone">Telefon:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+        
+        <label for="age">Wiek:</label>
+        <input type="number" id="age" name="age"><br><br>
+        
+        <label for="field1">Czy ukończyłeś szkołę wyższą?</label>
+        <input type="checkbox" id="field1" name="field1" value="Tak"><br><br>
+        
+        <label for="gender">Płeć:</label>
+        <input type="radio" id="gender" name="gender" value="male">Mężczyzna
+        <input type="radio" id="gender" name="gender" value="female">Kobieta<br><br>
+        
+        <label for="city">Miasto:</label>
+        <select id="city" name="city">
+          <option value="lodz">Łódź</option>
+          <option value="warszawa">Warszawa</option>
+          <option value="krakow">Kraków</option>
+        </select><br><br>
+        
+        <label for="occupation">Poprzeni zawód:</label>
+        <input type="text" id="occupation" name="occupation"><br><br>
+        
+        <label for="hobbies">Hobby:</label>
+        <input type="text" id="hobbies" name="hobbies"><br><br>
+        
+        <label for="textarea">Opowiedz coś o sobie:</label><br>
+        <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br><br>
+        
+        <label for="newsletter">Chcę otrzymywać notyfikacje o przyjeciu:</label>
+        <input type="checkbox" id="newsletter" name="newsletter" value="Tak"><br><br>
+        
+        <input type="submit" value="Wyślij">
+      </form>
+</body>
+</html>

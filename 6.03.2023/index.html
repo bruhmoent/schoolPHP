@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ksiegarnia</title>
+    <style>
+        table{
+        border:1px solid black;
+        }
+    </style>
+</head>
+<body>  
+  <h1> Wstaw nowa ksiazke </h1>
+  <form action="wstaw_ksiazke.php" method="post">
+    <table>
+        <tr>
+            <td>ISBN</td>
+            <td><input type="text" name="isbn" maxlength="13" size="13"></td>
+        </tr>
+        <tr>
+            <td>Autor</td>
+            <td><input type="text" name="autor" maxlength="30" size="30"></td>
+        </tr>
+        <tr>
+            <td>Tytuł</td>
+            <td><input type="text" name="tytul" maxlength="60" size="30"></td>
+        </tr>
+        <tr>
+            <td>Cena PLN</td>
+            <td><input type="text" name="cena" maxlength="7" size="7"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Zapisz"></td>
+        </tr>
+    </table>
+  </form>
+</body>
+</html>
