@@ -30,13 +30,13 @@
     {
         print $content;
         print PHP_EOL;
-    }
+    };
 
-    $print;
+    $print('po raz 1');
 
     function myFunction($callback)
     {
-        $callback("derpyas");
+        $callback("2");
     }
 
     myFunction($print);
@@ -44,8 +44,9 @@
     $var = 'po raz 3';
     $printAge = function($callback) use ($var)
     {
-        
-    }
+        $callback($var);
+    };
+    $printAge($print);
     ?>
 </body>
 </html>
