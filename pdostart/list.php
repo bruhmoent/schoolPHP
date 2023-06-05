@@ -30,7 +30,7 @@ if(!isset($_SESSION['logged_id']))
 }
 $usersQuery=$db->query('SELECT * FROM users');
 $users = $usersQuery->fetchAll();
-?>
+?>  
 <!DOCTYPE html>
 <html lang="pl">
 <head>
