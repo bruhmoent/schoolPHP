@@ -1,0 +1,99 @@
+body{
+    background-color: bisque;
+}
+
+.table
+{
+    width: 50%;
+    height: 300px;
+    border: 1px groove black;
+    background-color: #3B2220;
+    border: 1px groove #E6D6D5;
+    color: #E6D6D5;
+}
+
+td{
+    border: 1px groove #624745;
+}
+
+th{
+    border: 2px dashed #624745;
+}
+
+#content
+{
+    display: flex;
+    flex-direction: column;
+    width: calc(100%-5);
+    height: auto;
+    align-items: center;
+    background-color: #522A27;
+    justify-content: center;
+    padding: 5px;
+}
+
+#header
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    color: #E6D6D5;
+    background-color:  #5F3936;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 48px;
+}
+
+hr{
+    width: 300px;
+}
+
+.form
+{
+    background-color: #754C49;
+    padding: 10px;
+    border-radius: 15px;
+    color: #E6D6D5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    height: 400px;
+    text-align: center;
+}
+
+.form h2 {
+    text-align: center !important;
+}
+
+.error
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    color: #754C49;
+    height: 20px;
+}
+
+input
+{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 1px groove #522A27;
+}
+
+#form-cont
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
